@@ -1,0 +1,196 @@
+
+body {
+  font-family: "Plus Jakarta Sans", "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* ---------- IMAGE SECTION ---------- */
+.odsimagee {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.odsimagee img {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ---------- TICKET SECTION ---------- */
+.Ticket {
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.Ticket h2 {
+  font-size: 1.8rem;
+  color: #111;
+  line-height: 1.4;
+}
+
+.Ticket p {
+  font-size: 1rem;
+  color: #000000;
+  margin: 8px 0;
+}
+
+.Congrat,
+.embark,
+.Event,
+.Together {
+  margin-bottom: 15px;
+}
+
+/* ---------- SHARE SECTION ---------- */
+.share {
+  text-align: center;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.share span {
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.ods {
+  background-color: #03BE5E;
+  padding-top: 30px;
+  text-align: center;
+ 
+}
+
+.odslogo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Social media icons */
+.website {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.website img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.website img:hover {
+  transform: scale(1.2);
+}
+
+/* Footer text */
+.attend p,
+.email p,
+.summit p {
+  font-size: 0.85rem;
+  color: #FFFFFF;
+  margin: 10px auto;
+  max-width: 900px;
+  line-height: 1.5;
+}
+
+/* Pattern image */
+.pattern img {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+
+@media (max-width: 480px) {
+  .Ticket h2 {
+    font-size: 1.4rem;
+  }
+
+  .Ticket p {
+    font-size: 0.9rem;
+  }
+
+  .share {
+    padding: 15px;
+  }
+
+  .website img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .attend p,
+  .email p,
+  .summit p {
+    font-size: 0.75rem;
+    padding: 0 10px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .Ticket {
+    padding: 30px;
+  }
+
+  .Ticket h2 {
+    font-size: 1.6rem;
+  }
+
+  .share {
+    width: 85%;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .odsimagee img {
+    max-width: 700px;
+  }
+
+  .Ticket h2 {
+    font-size: 2rem;
+  }
+
+  .Ticket p {
+    font-size: 1.05rem;
+  }
+
+  .share span {
+    font-size: 1rem;
+  }
+
+  .attend p,
+  .email p,
+  .summit p {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .Ticket {
+    padding: 40px;
+  }
+
+  .Ticket h2 {
+    font-size: 2.2rem;
+  }
+}
