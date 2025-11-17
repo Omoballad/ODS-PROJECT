@@ -22,6 +22,16 @@
         background-color: #fff;
         color: #000000;
         line-height: 1.6;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .main-container {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
       }
 
       .odsimagee {
@@ -43,6 +53,7 @@
         padding: 20px 15px;
         max-width: 900px;
         margin: 0 auto;
+        /* text-align: center; */
       }
 
       .Ticket h2 {
@@ -61,6 +72,16 @@
         color: #000000;
         margin: 15px 0;
         line-height: 1.7;
+        /* text-align: center; */
+      }
+
+      .Ticket p a {
+        color: #31004a;
+        text-decoration: none;
+      }
+
+      .Ticket p a:hover {
+        text-decoration: underline;
       }
 
       .Congrat,
@@ -71,10 +92,10 @@
       }
 
       .social-links {
-        margin: 20px 0;
+        margin: 20px auto;
         padding: 15px;
-        /* background-color: #f5f5f5; */
         border-radius: 8px;
+        /* text-align: center; */
       }
 
       .social-links p {
@@ -83,14 +104,14 @@
       }
 
       .social-links a {
-        color: #03be5e;
+        color: #31004a;
         text-decoration: none;
         font-weight: 500;
         transition: color 0.3s ease;
       }
 
       .social-links a:hover {
-        color: #028a45;
+        color: #31004a;
         text-decoration: underline;
       }
 
@@ -98,7 +119,7 @@
         padding: 20px 15px;
         max-width: 900px;
         margin: 0 auto;
-        /* background-color: #f9f9f9; */
+        /* text-align: center; */
       }
 
       .share span {
@@ -154,6 +175,7 @@
         max-width: 900px;
         line-height: 1.6;
         padding: 0 10px;
+        text-align: center;
       }
 
       .pattern {
@@ -169,6 +191,10 @@
 
       /* Small Mobile (320px - 480px) */
       @media (max-width: 480px) {
+        body {
+          align-items: flex-start;
+        }
+
         .odsimagee {
           margin-top: 10px;
           padding: 0 10px;
@@ -196,7 +222,7 @@
 
         .social-links {
           padding: 12px;
-          margin: 15px 0;
+          margin: 15px auto;
         }
 
         .social-links p {
@@ -248,6 +274,10 @@
 
       /* Large Mobile/Small Tablet (481px - 768px) */
       @media (min-width: 481px) and (max-width: 768px) {
+        body {
+          align-items: flex-start;
+        }
+
         .odsimagee {
           margin-top: 20px;
         }
@@ -371,9 +401,8 @@
 
       /* Desktop (1025px - 1440px) */
       @media (min-width: 1025px) {
-        body {
+        .main-container {
           max-width: 1200px;
-          margin: 0 auto;
         }
 
         .odsimagee {
@@ -477,7 +506,7 @@
     </style>
   </head>
   <body>
-    <div>
+    <div class="main-container">
       <div class="odsimagee">
         <img
           src="https://res.cloudinary.com/dbmvwrk56/image/upload/v1762263403/aaz495_aqfujk.gif"
@@ -487,8 +516,8 @@
 
       <div class="Ticket">
         <h2>
-          Your Ticket to Ogun Digital Summit<br />
-          Has Arrived!
+          Your Ticket to Ogun Digital Summit Has<br />
+          Arrived!
         </h2>
         <p>Dear Joseph,<br /></p>
         <p class="Congrat">
@@ -497,8 +526,10 @@
         </p>
         <p class="embark">
           You're about to embark on an unforgettable journey with a vibrant
-          community of innovators, dreamers, and change-makers who are shaping
-          the digital future of Ogun State and beyond.
+          community of<br />
+          innovators, dreamers, and change-makers who are shaping the digital
+          future of<br />
+          Ogun State and beyond.
         </p>
 
         <p class="Event">
